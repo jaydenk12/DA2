@@ -1,0 +1,104 @@
+/* common */
+body {
+  background-color: #000;
+  padding: 0 10%;
+  text-align: center;
+}
+
+a, h3 {
+  color: #fff;
+}
+
+a:link { text-decoration: none; }
+
+.section-container {
+  outline: 1px solid #036cdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section-title {
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+/* border colors */
+nav {
+  outline: 1px solid #0088c3;
+}
+
+li {
+  outline: 1px solid #d90416;
+}
+
+.blue {
+  outline: 1px solid #036cdb;
+}
+
+.pink {
+  outline: 1px solid #ff62ab;
+}
+
+.green {
+  outline: 1px solid #22746b;
+}
+
+/* nav */
+.navbar {
+  padding: 12px 10%;
+  background-color: #000;
+}
+
+/* home */
+.home-image {
+  margin-bottom: 1rem;
+}
+
+.home-link:hover {
+  color: #ff62ab;
+}
+
+/* team */
+.team-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.name {
+  margin-bottom: 2rem;
+}
+
+/* vision */
+.vision-content {
+  text-align: left;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .vision-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* blog */
+/* community */
+.fa-brands {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.insta-link:hover {
+  color: #DD2A7B;
+}
+
+.twitter-link:hover {
+  color: #00acee;
+}
+
+.discord-link:hover {
+  color: #5865f2;
+}
